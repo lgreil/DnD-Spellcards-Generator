@@ -1,6 +1,7 @@
 import json
 
 TEMPLATE_HEADER = r"""
+% !TEX TS-program = xelatex
 \documentclass[a4paper]{article}
 \usepackage[margin=0.5cm]{geometry}
 \usepackage{fontspec}

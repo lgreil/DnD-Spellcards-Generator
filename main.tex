@@ -1,0 +1,25 @@
+% !TEX TS-program = xelatex
+\documentclass[a4paper]{article}
+
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\input{card-design.tex}
+
+% Kartenbox
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\begin{tabular}{cc}
+\input{cards.tex}
+\end{tabular}
+\end{center}
+
+\end{document}

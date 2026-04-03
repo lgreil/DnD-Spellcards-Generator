@@ -69,4 +69,4 @@ Ein Python-basiertes Tool, das eine strukturierte JSON-Zauberliste (Spells.json)
 
 ---
 
-> Dieses Projekt ist ein schlankes, wartbares Toolkit für D&D-Spielleiter, die professionell aussehende Zauberkarten aus standardisierten Daten generieren wollen.
+> Dieses Projekt ist ein schlankes, wartbares Toolkit für D&D-Spielleiter, die professionell aussehende Zauberkarten aus standardisierten Daten generieren wollen.P

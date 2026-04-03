@@ -1,0 +1,91 @@
+
+% =========================
+% FONTS
+% =========================
+\setmainfont{Inter}
+\newfontfamily\titlefont{Cinzel}
+
+
+% =========================
+% ICON COMMANDS
+% =========================
+\newcommand{\actionicon}{\faClock}
+\newcommand{\rangeicon}{\faRulerHorizontal}
+\newcommand{\saveicon}{\faBullseye}
+\newcommand{\durationicon}{\faHourglassHalf}
+\newcommand{\componenticon}{\faCubes}
+\newcommand{\concentrationicon}{\faBrain}
+
+% =========================
+% COLORS (Schulen)
+% =========================
+\definecolor{evocation}{HTML}{D97706}
+\definecolor{illusion}{HTML}{7C3AED}
+\definecolor{necromancy}{HTML}{374151}
+\definecolor{abjuration}{HTML}{2563EB}
+\definecolor{conjuration}{HTML}{059669}
+\definecolor{enchantment}{HTML}{DB2777}
+\definecolor{divination}{HTML}{CA8A04}
+\definecolor{transmutation}{HTML}{92400E}
+
+
+% =========================
+% CARD STYLE
+% =========================
+\newtcolorbox{spellcard}[1][]{
+    width=7.4cm,
+    height=10.5cm,
+    colback=white,
+    colframe=black,
+    boxrule=0.5pt,
+    arc=3mm,
+    auto outer arc,
+    left=2mm,
+    right=2mm,
+    top=2mm,
+    bottom=2mm,
+    #1
+}
+
+
+% =========================
+% SPELL COMMAND
+% =========================
+% Arguments:
+% 1 = Spell name
+% 2 = Spell school/color
+% 3 = Level & school text
+% 4 = Description (itemize allowed)
+% 5 = Higher-level text (optional)
+% 6 = Optional tcolorbox options
+
+\newcommand{\spell}[6]{
+\begin{spellcard}[#6]
+{\titlefont\color{#2}\textbf{#1}}\\
+
+\vspace{2mm}
+\hrule
+\vspace{1mm}
+
+\small
+\actionicon{} 1 Aktion \hfill \rangeicon{} Selbst (4,5 m Kegel)\\
+\saveicon{} GE-RW \hfill \durationicon{} Sofort\\
+\componenticon{} V, G
+
+\vspace{1mm}
+\hrule
+\vspace{1mm}
+
+#4
+
+\ifx #5\empty
+% do nothing if #5 is empty
+\else
+\vspace{1mm}
+\hrule
+\vspace{1mm}
+\small #5
+\fi
+
+\end{spellcard}
+}
