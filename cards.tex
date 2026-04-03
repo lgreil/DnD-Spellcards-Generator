@@ -1,0 +1,77 @@
+
+\documentclass[a4paper]{article}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\setmainfont{Inter}
+\newfontfamily\titlefont{Cinzel}
+
+\definecolor{evocation}{HTML}{D97706}
+\definecolor{illusion}{HTML}{7C3AED}
+\definecolor{necromancy}{HTML}{374151}
+
+\newtcolorbox{spellcard}[1][]{
+    width=7.4cm,
+    height=10.5cm,
+    colback=white,
+    colframe=black,
+    boxrule=0.5pt,
+    arc=3mm,
+    auto outer arc,
+    left=2mm,
+    right=2mm,
+    top=2mm,
+    bottom=2mm,
+}
+
+\newcommand{\spell}[11]{
+\begin{spellcard}
+{\titlefont\color{#1}\textbf{#2}}\\
+\small Stufe #3 • #4
+
+\vspace{2mm}\hrule\vspace{1mm}
+
+\small
+\faClock\ #5 \hfill \faRulerHorizontal\ #6\\
+\faBullseye\ #7 \hfill \faHourglassHalf\ #8\\
+\faCubes\ #9
+
+\vspace{1mm}\hrule\vspace{1mm}
+
+#10
+
+\vspace{1mm}\hrule\vspace{1mm}
+
+\small ↑ Höhere Grade: #11
+\end{spellcard}
+}
+
+\begin{document}
+\centering
+\begin{tabular}{ccc}
+
+\spell
+{evocation}
+{Brennende Hände}
+{1}
+{Hervorrufung}
+{1 Aktion}
+{Selbst (4,5 m Kegel)}
+{GE-RW}
+{Sofort}
+{V, G}
+{\begin{itemize}[leftmargin=*, noitemsep]
+\item Flammenkegel aus deinen Händen
+\item 3W6 Feuerschaden
+\item GE-RW → halb
+\item entzündet Objekte
+\end{itemize}}
+{+1W6}
+&
+
+\end{tabular}
+\end{document}

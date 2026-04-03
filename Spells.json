@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Brennende Hände",
+    "level": 1,
+    "school": "Hervorrufung",
+    "color": "evocation",
+    "casting_time": "1 Aktion",
+    "range": "Selbst (4,5 m Kegel)",
+    "save": "GE-RW",
+    "duration": "Sofort",
+    "components": "V, G",
+    "description": [
+      "Flammenkegel aus deinen Händen",
+      "3W6 Feuerschaden",
+      "GE-RW → halb",
+      "entzündet Objekte"
+    ],
+    "higher_levels": "+1W6"
+  }
+]
