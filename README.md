@@ -1,7 +1,4 @@
-## ✅ Projektübersicht (professionell)
-
-### Projektname
-`DnD-Spellcards-Generator`
+## DnD-Spellcards-Generator
 
 ### Kurzbeschreibung
 Ein Python-basiertes Tool, das eine strukturierte JSON-Zauberliste (Spells.json) in eine LaTeX-Karteikartenvorlage (cards.tex) konvertiert, um stilisierte D&D-5e-Zauberkarten zu erstellen.
