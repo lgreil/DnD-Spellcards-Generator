@@ -1,10 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  3 APR 2026 16:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  4 APR 2026 09:33
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/encum/Documents/Projekte/DnD - Card Generator/main"
-(c:/Users/encum/Documents/Projekte/DnD - Card Generator/main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -23,14 +22,18 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-) (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+)
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count279
@@ -45,84 +48,149 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks18
-) (c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-03-20 L3 programming layer (loader) 
+
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
+\g__graphics_track_int=\count282
+\g__pdfannot_backend_int=\count283
+\g__pdfannot_backend_link_int=\count284
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count285
+\l__fontspec_language_int=\count286
+\l__fontspec_strnum_int=\count287
+\l__fontspec_tmp_int=\count288
+\l__fontspec_tmpa_int=\count289
+\l__fontspec_tmpb_int=\count290
+\l__fontspec_tmpc_int=\count291
+\l__fontspec_em_int=\count292
+\l__fontspec_emdef_int=\count293
+\l__fontspec_strong_int=\count294
+\l__fontspec_strongdef_int=\count295
+\l__fontspec_tmpa_dim=\dimen159
+\l__fontspec_tmpb_dim=\dimen160
+\l__fontspec_tmpc_dim=\dimen161
+
+(c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(c:/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks19
-\pgfutil@tempdima=\dimen159
-\pgfutil@tempdimb=\dimen160
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box53
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
- (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen161
-\Gin@req@width=\dimen162
-) (c:/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
 \pgfkeys@tmptoks=\toks22
 ))
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
-\pgf@xd=\dimen171
-\pgf@yd=\dimen172
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count282
-\c@pgf@countb=\count283
-\c@pgf@countc=\count284
-\c@pgf@countd=\count285
+\c@pgf@counta=\count296
+\c@pgf@countb=\count297
+\c@pgf@countc=\count298
+\c@pgf@countd=\count299
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
-\pgf@sys@id@count=\count286
+\pgf@sys@id@count=\count300
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-xetex.def
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
 File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )
-\pgfsys@objnum=\count287
-))) (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+\pgfsys@objnum=\count301
+)))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count288
-\pgfsyssoftpath@bigbuffer@items=\count289
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+\pgfsyssoftpath@smallbuffer@items=\count302
+\pgfsyssoftpath@bigbuffer@items=\count303
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
@@ -131,278 +199,262 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen173
-\pgfmath@count=\count290
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count304
 \pgfmath@box=\box54
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
 \pgfmath@stack@operation=\toks28
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count291
-)) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count305
+))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen174
-\pgf@picmaxx=\dimen175
-\pgf@picminy=\dimen176
-\pgf@picmaxy=\dimen177
-\pgf@pathminx=\dimen178
-\pgf@pathmaxx=\dimen179
-\pgf@pathminy=\dimen180
-\pgf@pathmaxy=\dimen181
-\pgf@xx=\dimen182
-\pgf@xy=\dimen183
-\pgf@yx=\dimen184
-\pgf@yy=\dimen185
-\pgf@zx=\dimen186
-\pgf@zy=\dimen187
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen188
-\pgf@path@lasty=\dimen189
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen190
-\pgf@shorten@start@additional=\dimen191
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box55
 \pgf@hbox=\box56
 \pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count292
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+\pgf@picture@serial@count=\count306
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen192
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+\pgflinewidth=\dimen195
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen193
-\pgf@pt@y=\dimen194
-\pgf@pt@temp=\dimen195
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen196
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+\pgfarrowsep=\dimen199
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen197
-\pgf@sys@shading@range@num=\count293
-\pgf@shadingcount=\count294
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count307
+\pgf@shadingcount=\count308
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box58
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box59
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen198
-\pgf@nodesepend=\dimen199
-) (c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+\pgf@nodesepstart=\dimen257
+\pgf@nodesepend=\dimen258
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen256
-\pgffor@skip=\dimen257
+\pgffor@iter=\dimen259
+\pgffor@skip=\dimen260
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
-)) (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count295
-\pgfplotmarksize=\dimen258
+\pgf@plot@mark@count=\count309
+\pgfplotmarksize=\dimen261
 )
-\tikz@lastx=\dimen259
-\tikz@lasty=\dimen260
-\tikz@lastxsaved=\dimen261
-\tikz@lastysaved=\dimen262
-\tikz@lastmovetox=\dimen263
-\tikz@lastmovetoy=\dimen264
-\tikzleveldistance=\dimen265
-\tikzsiblingdistance=\dimen266
+\tikz@lastx=\dimen262
+\tikz@lasty=\dimen263
+\tikz@lastxsaved=\dimen264
+\tikz@lastysaved=\dimen265
+\tikz@lastmovetox=\dimen266
+\tikz@lastmovetoy=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
 \tikz@figbox=\box60
 \tikz@figbox@bg=\box61
 \tikz@tempbox=\box62
 \tikz@tempbox@bg=\box63
-\tikztreelevel=\count296
-\tikznumberofchildren=\count297
-\tikznumberofcurrentchild=\count298
-\tikz@fig@count=\count299
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+\tikztreelevel=\count310
+\tikznumberofchildren=\count311
+\tikznumberofcurrentchild=\count312
+\tikz@fig@count=\count313
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count300
-\pgfmatrixcurrentcolumn=\count301
-\pgf@matrix@numberofcolumns=\count302
+\pgfmatrixcurrentrow=\count314
+\pgfmatrixcurrentcolumn=\count315
+\pgf@matrix@numberofcolumns=\count316
 )
-\tikz@expandcount=\count303
- (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+\tikz@expandcount=\count317
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-03-20 L3 programming layer (loader) 
- (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
-\g__graphics_track_int=\count304
-\g__pdfannot_backend_int=\count305
-\g__pdfannot_backend_link_int=\count306
-))
-Package: xparse 2025-10-09 L3 Experimental document command parser
-)
-Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
- (c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count307
-\l__fontspec_language_int=\count308
-\l__fontspec_strnum_int=\count309
-\l__fontspec_tmp_int=\count310
-\l__fontspec_tmpa_int=\count311
-\l__fontspec_tmpb_int=\count312
-\l__fontspec_tmpc_int=\count313
-\l__fontspec_em_int=\count314
-\l__fontspec_emdef_int=\count315
-\l__fontspec_strong_int=\count316
-\l__fontspec_strongdef_int=\count317
-\l__fontspec_tmpa_dim=\dimen267
-\l__fontspec_tmpb_dim=\dimen268
-\l__fontspec_tmpc_dim=\dimen269
- (c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count318
-\mult@box=\box64
-\multicol@leftmargin=\dimen270
-\c@unbalance=\count319
-\c@collectmore=\count320
-\doublecol@number=\count321
-\multicoltolerance=\count322
-\multicolpretolerance=\count323
-\full@width=\dimen271
-\page@free=\dimen272
-\premulticols=\dimen273
-\postmulticols=\dimen274
-\multicolsep=\skip51
-\multicolbaselineskip=\skip52
-\partial@page=\box65
-\last@line=\box66
-\mc@boxedresult=\box67
-\maxbalancingoverflow=\dimen275
-\mult@rightbox=\box68
-\mult@grightbox=\box69
-\mult@firstbox=\box70
-\mult@gfirstbox=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\c@minrows=\count324
-\c@columnbadness=\count325
-\c@finalcolumnbadness=\count326
-\last@try=\dimen276
-\multicolovershoot=\dimen277
-\multicolundershoot=\dimen278
-\mult@nat@firstbox=\box108
-\colbreak@box=\box109
-\mc@col@check@num=\count327
-\g__mc_curr_col_int=\count328
-) (c:/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
- (c:/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
+)))
+(c:/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks31
 \verbatim@line=\toks32
 \verbatim@in@stream=\read3
-) (c:/texlive/2026/texmf-dist/tex/latex/environ/environ.sty
+)
+(c:/texlive/2026/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (c:/texlive/2026/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+
+(c:/texlive/2026/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks33
-) (c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count329
 )
-\tcb@titlebox=\box110
-\tcb@upperbox=\box111
-\tcb@lowerbox=\box112
-\tcb@phantombox=\box113
-\c@tcbbreakpart=\count330
-\c@tcblayer=\count331
-\c@tcolorbox@number=\count332
-\l__tcobox_tmpa_box=\box114
-\l__tcobox_tmpa_dim=\dimen279
-\tcb@temp=\box115
-\tcb@temp=\box116
-\tcb@temp=\box117
-\tcb@temp=\box118
-) (c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count318
+)
+\tcb@titlebox=\box64
+\tcb@upperbox=\box65
+\tcb@lowerbox=\box66
+\tcb@phantombox=\box67
+\c@tcbbreakpart=\count319
+\c@tcblayer=\count320
+\c@tcolorbox@number=\count321
+\l__tcobox_tmpa_box=\box68
+\l__tcobox_tmpa_dim=\dimen270
+\tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+)
+(c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip53
-\enit@outerparindent=\dimen280
+\labelindent=\skip51
+\enit@outerparindent=\dimen271
 \enit@toks=\toks34
-\enit@inbox=\box119
-\enit@count@id=\count333
-\enitdp@description=\count334
-) (c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+\enit@inbox=\box73
+\enit@count@id=\count322
+\enitdp@description=\count323
+)
+(c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
- (c:/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
-) (c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty
-Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesome5
-LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on input line 69.
- (c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd)
-LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on input line 70.
- (c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd))) (./card-design.tex
+)
+(c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
+e5
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
+nput line 69.
+(c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
+ input line 70.
+
+(c:/texlive/2026/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd)))
+(c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2026/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count324
+\xs_countb=\count325
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(./card-design.tex
 
 Package fontspec Info: 
 (fontspec)             Font family 'Inter(0)' created for font 'Inter' with
@@ -412,21 +464,29 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Inter/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"Inter/OT:script=latn;language=dflt;mapping=tex-text;
+"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"Inter/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->"Inter/OT:script=latn;language=dflt;+smcp;mapping=tex
+-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Inter/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"Inter/B/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"Inter/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->"Inter/B/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Inter/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"Inter/I/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Inter/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->"Inter/I/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Inter/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"Inter/BI/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Inter/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->"Inter/BI/OT:script=latn;language=dflt;+smcp;mapping=
+tex-text;"
 
 
 Package fontspec Info: 
@@ -451,45 +511,45 @@ Package fontspec Info:
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
-* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
+* modes: landscape 
+* h-part:(L,W,R)=(8.53581pt, 580.43625pt, 8.53581pt)
+* v-part:(T,H,B)=(14.22636pt, 822.28458pt, 8.53581pt)
 * \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=569.05515pt
-* \textheight=816.59412pt
-* \oddsidemargin=-58.04362pt
-* \evensidemargin=-58.04362pt
+* \paperheight=845.04675pt
+* \textwidth=580.43625pt
+* \textheight=822.28458pt
+* \oddsidemargin=-63.73418pt
+* \evensidemargin=-63.73418pt
 * \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
+* \marginparwidth=144.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -509,86 +569,1550 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
-LaTeX Font Info:    Redeclaring math accent \check on input line 17.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 59.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 59.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 59.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 59.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 59.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 59.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 59.
+LaTeX Font Info:    Redeclaring math accent \check on input line 59.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 59.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 59.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 59.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 17.
+(Font)              `operators' in the math version `normal' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Inter(0)/m/n on input line 17.
+(Font)                  OT1/cmr/m/n --> TU/Inter(0)/m/n on input line 59.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 17.
+(Font)              `operators' in the math version `bold' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Inter(0)/m/n on input line 17.
+(Font)                  OT1/cmr/bx/n --> TU/Inter(0)/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Inter(0)/m/n --> TU/Inter(0)/m/n on input line 17.
+(Font)                  TU/Inter(0)/m/n --> TU/Inter(0)/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Inter(0)/m/it on input line 17.
+(Font)                  OT1/cmr/m/it --> TU/Inter(0)/m/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Inter(0)/b/n on input line 17.
+(Font)                  OT1/cmr/bx/n --> TU/Inter(0)/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 17.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Inter(0)/m/n --> TU/Inter(0)/b/n on input line 17.
+(Font)                  TU/Inter(0)/m/n --> TU/Inter(0)/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Inter(0)/b/it on input line 17.
+(Font)                  OT1/cmr/bx/it --> TU/Inter(0)/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 59.
 (./cards.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
 
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 3.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...let GE-RW → halb \bullet Entzündet Objekte}
+                                                   & \spell{Magische Rakete}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü ("FC) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
 
-) [1
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-] (./main.aux)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 3.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...o Geschoss \bullet Treffer fast garantiert}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 3--3
+[]\TU/Inter(0)/m/n/8 3 Geschosse + 1 pro 2 Level $\OMS/cmsy/m/n/8 ^^O\OT1/cmr/m
+/n/8 1\OML/cmm/m/it/8 W\OT1/cmr/m/n/8 4 + 1\OML/cmm/m/it/8 SchadenproGeschoss \
+OMS/cmsy/m/n/8 ^^O
+ []
+
+! Undefined control sequence.
+<argument> \faShieldAlt 
+                        
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 4.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]V[][][]f[]n
+ \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]S[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...ullet Existierende können nicht eindringen}
+                                                   & \spell{Wendeschutz}{ban...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no Ü ("DC) in font cmmi8!
+Missing character: There is no ü ("FC) in font cmmi8!
+Missing character: There is no ö ("F6) in font cmmi8!
+
+Underfull \hbox (badness 2134) in paragraph at lines 4--4
+[]\TU/Inter(0)/m/n/8 Kreis schützt bis zu 10 Kreaturen $\OMS/cmsy/m/n/8 ^^O\OML
+/cmm/m/it/8 bernatrlicheWesenmitNachteil \OMS/cmsy/m/n/8 ^^O
+ []
+
+! Undefined control sequence.
+<argument> \faShieldAlt 
+                        
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 4.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]V[][][]f[]n
+ \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]S[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...et Immunität gegen Zauberstäbe der Lähmung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä ("E4) in font cmmi8!
+Missing character: There is no ä ("E4) in font cmmi8!
+Missing character: There is no ä ("E4) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\TU/Inter(0)/m/n/8 Ziel erhält +2 auf Rettungswürfe $\OMS/cmsy/m/n/8 ^^O\OML/
+cmm/m/it/8 gegenmagischeEffekte \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 5.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]V[][][]f[]n
+ \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]S[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...fen für dich \bullet Verschwinden bei 0 HP}
+                                                   & \spell{Türöffner}{besch...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä ("E4) in font cmmi8!
+Missing character: There is no ü ("FC) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 5.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ...schlossen \bullet Max. Größe 20 Quadratfuß}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ö ("F6) in font cmmi8!
+Missing character: There is no ß ("DF) in font cmmi8!
+Missing character: There is no ß ("DF) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]\TU/Inter(0)/m/n/8 Öffnet Türen, Fenster und Kisten $\OMS/cmsy/m/n/8 ^^O\OML/
+cmm/m/it/8 Auchmagischverschlossen \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Overfull \hbox (34.07773pt too wide) in paragraph at lines 2--7
+ [][] 
+ []
+
+[1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 10.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 9--14
+ [][] 
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 17
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...\bullet Fähigkeiten erhöhen Schwierigkeit}
+                                                   & \spell{Hellsicht}{erken...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä ("E4) in font cmmi8!
+Missing character: There is no ö ("F6) in font cmmi8!
+
+Overfull \hbox (5.73114pt too wide) in paragraph at lines 17--17
+[]\TU/Inter(0)/m/n/8 Lese oberflächliche Gedanken $\OMS/cmsy/m/n/8 ^^O\OML/cmm/
+m/it/8 TiefereGedankenmiterfolgreicherAktion \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 17
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]V[][][]f[]n
+ \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]S[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...rke \bullet Unvergleichlich bei Erkundung}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä ("E4) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]\TU/Inter(0)/m/n/8 Sieh magische Auren $\OMS/cmsy/m/n/8 ^^O\OML/cmm/m/it/8 Er
+kenneSchulenundStrke \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 18
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...zt \bullet Endgetalter kennt Verzauberung}
+                                                   & \spell{Reizung}{verzaub...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 18
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 18--18
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTFVV[][][]f[]n 
+\OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTFVS[][][]f[]n \OT1/cmr/m/n/10 : \OML/cmm/
+m/it/10 nnTFVG[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ...ullet Keine anderen Aktionen dieser Runde}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]\TU/Inter(0)/m/n/8 Moralische Wesen reizen $\OMS/cmsy/m/n/8 ^^O\OML/cmm/m/it/
+8 ReagierenalsimKampf \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 19
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 19--19
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTFSV[][][]f[]n 
+\OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTFSS[][][]f[]n \OT1/cmr/m/n/10 : \OML/cmm/
+m/it/10 nnTFSG[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...Level \bullet Kein Schaden, nur Täuschung}
+                                                   & \spell{Zauberhand}{verw...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü ("FC) in font cmmi8!
+Missing character: There is no ä ("E4) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\TU/Inter(0)/m/n/8 Schaffe Sinnestrugbild $\OMS/cmsy/m/n/8 ^^O\OML/cmm/m/it/8
+ Max:Wrfel\OT1/cmr/m/n/8 1\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 1\OML/cmm/m/it/8 x\OT
+1/cmr/m/n/8 2\OML/cmm/m/it/8 mproLevel \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 19
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...te Objekte bewegen \bullet Trägt bis 5 kg}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä ("E4) in font cmmi8!
+
+Overfull \hbox (34.07773pt too wide) in paragraph at lines 16--21
+ [][] 
+ []
+
+[3]
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 23--28
+ [][] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 31
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ... = Zauberlevel \bullet Behalte Geistwerte}
+                                                   & \spell{Totenbeschwörung...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\TU/Inter(0)/m/n/8 Verwandle Kreatur in tierische Form $\OMS/cmsy/m/n/8 ^^O\O
+ML/cmm/m/it/8 Max:ChallengeRating \OT1/cmr/m/n/8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 31
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]V[][][]f[]n
+ \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]S[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...ung \bullet Pro 2 Level +1 Würfel Schaden}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ä ("E4) in font cmmi8!
+Missing character: There is no ü ("FC) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\TU/Inter(0)/m/n/8 Verursache 1W8+4 Nekromantie-Schaden $\OMS/cmsy/m/n/8 ^^O\
+OML/cmm/m/it/8 STgegenBetubung \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+
+ []
+
+! Undefined control sequence.
+\parsecomponents ...{0}\def \componentlist {}\str 
+                                                  _if_in:nnTF{#1}{V}{\def \h...
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+\parsecomponents ...def \componentlist {V}}{}\str 
+                                                  _if_in:nnTF{#1}{S}{\def \h...
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist S}}{}\str 
+                                                  _if_in:nnTF{#1}{G}{\def \h...
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\parsecomponents ...ist {\componentlist G}}{}\str 
+                                                  _if_in:nnTF{#1}{M}{\def \h...
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 32
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]$[]\OML/cmm/m/it/10 f[]n \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]V[][][]f[]n
+ \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 nnTF[]S[][][]f[]n \OT1/cmr/m/n/10 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...sucht \bullet Illusion bei Kampf enthüllt}
+                                                   &  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü ("FC) in font cmmi8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]\TU/Inter(0)/m/n/8 Gestalt mit 1 HP darstellen $\OMS/cmsy/m/n/8 ^^O\OML/cmm/m
+/it/8 Siehtechtauswenndirektuntersucht \OMS/cmsy/m/n/8 ^^O
+ []
+
+
+Overfull \hbox (34.07773pt too wide) in paragraph at lines 30--34
+ [][] 
+ []
+
+[5])
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 36--65
+ [][] 
+ []
+
+[6] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19027 strings out of 467992
- 429313 string characters out of 5433178
- 854426 words of memory out of 5000000
- 47646 multiletter control sequences out of 15000+600000
- 627937 words of font info for 67 fonts, out of 8000000 for 9000
+ 19308 strings out of 467992
+ 432876 string characters out of 5433178
+ 871939 words of memory out of 5000000
+ 47901 multiletter control sequences out of 15000+600000
+ 630737 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,10n,107p,468b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,13n,121p,515b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (1 page).
+Output written on main.pdf (6 pages).

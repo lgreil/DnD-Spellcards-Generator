@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\encum\\\\Documents\\\\Projekte\\\\DnD - Card Generator\" ; python generateCards\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python \"c:\\\\Users\\\\encum\\\\Documents\\\\Projekte\\\\DnD - Card Generator\\\\generateCards\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

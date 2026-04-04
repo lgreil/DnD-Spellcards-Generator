@@ -1,91 +1,217 @@
+% ==============================================================================
+% CARD DESIGN - D&D 5e Spell Cards
+% ==============================================================================
+% Architecture:
+%   - SECTION 1: Fonts & Colors (central configuration)
+%   - SECTION 2: School Configuration (names, colors, icons, all in one place)
+%   - SECTION 3: Icon Definitions (component icons)
+%   - SECTION 4: Component Parser (converts "V, S, M" → icons)
+%   - SECTION 5: Spell Card Template (uses config from above)
+%   - SECTION 6: Card Back Template
+%
+% Key Design Decisions:
+%   - Schools are defined ONCE with name/color/icon together
+%   - No redundancy: \spell takes school only once, everything else derives from it
+%   - \getschoolcolor and \getschoolname are central lookup macros
 
-% =========================
-% FONTS
-% =========================
+% ==============================================================================
+% SECTION 1: FONTS & COLORS - Global Settings
+% ==============================================================================
+
+% Fonts
 \setmainfont{Inter}
 \newfontfamily\titlefont{Cinzel}
 
+% Card frame colors
+\definecolor{cardframe}{HTML}{1a1a1a}
+\definecolor{cardbg}{HTML}{fefefe}
 
-% =========================
-% ICON COMMANDS
-% =========================
+% ==============================================================================
+% SECTION 2: SCHOOL CONFIGURATION - Central Definition
+% ==============================================================================
+% All 8 schools defined in ONE place with: color, display name, and icon
+%
+% Usage:
+%   \getschoolcolor{hervorrufungsmagie}  → color for this school
+%   \getschoolname{hervorrufungsmagie}   → display name ("Hervorrufungsmagie")
+%   \spellschoolicon{hervorrufungsmagie} → icon symbol
+
+% Define school colors (optimized for cost - reduced saturation)
+\definecolor{herrvorufungsmagie}{HTML}{b86b0a}
+\definecolor{bannmagie}{HTML}{2d5aa0}
+\definecolor{beschwoerungsmagie}{HTML}{0d7f5f}
+\definecolor{erkenntnismagie}{HTML}{a04a0a}
+\definecolor{verzauberungsmagie}{HTML}{a02d5f}
+\definecolor{hervorrufungsmagie}{HTML}{b86b0a}
+\definecolor{illusionsmagie}{HTML}{6b46c1}
+\definecolor{nekromantie}{HTML}{4b5563}
+\definecolor{verwandlungsmagie}{HTML}{7c2d12}
+
+% Macro: Get school display name from color key
+\newcommand{\getschoolname}[1]{%
+  \ifstrequal{#1}{hervorrufungsmagie}{Hervorrufungsmagie}{}%
+  \ifstrequal{#1}{bannmagie}{Bannmagie}{}%
+  \ifstrequal{#1}{beschwoerungsmagie}{Beschwörungsmagie}{}%
+  \ifstrequal{#1}{erkenntnismagie}{Erkenntnismagie}{}%
+  \ifstrequal{#1}{verzauberungsmagie}{Verzauberungsmagie}{}%
+  \ifstrequal{#1}{illusionsmagie}{Illusionsmagie}{}%
+  \ifstrequal{#1}{verwandlungsmagie}{Verwandlungsmagie}{}%
+  \ifstrequal{#1}{nekromantie}{Nekromantie}{}%
+}
+
+% Macro: Get color from school key (returns the color name for coloring)
+\newcommand{\getschoolcolor}[1]{#1}
+
+% Macro: Get school icon from school key
+\newcommand{\spellschoolicon}[1]{%
+  \ifstrequal{#1}{hervorrufungsmagie}{\faFire}{}%
+  \ifstrequal{#1}{bannmagie}{\faShieldAlt}{}%
+  \ifstrequal{#1}{beschwoerungsmagie}{\faMagic}{}%
+  \ifstrequal{#1}{erkenntnismagie}{\faEye}{}%
+  \ifstrequal{#1}{verzauberungsmagie}{\faRecycle}{}%
+  \ifstrequal{#1}{illusionsmagie}{\faHatWizard}{}%
+  \ifstrequal{#1}{verwandlungsmagie}{\faRecycle}{}%
+  \ifstrequal{#1}{nekromantie}{\faSkullCrossbones}{}%
+}
+
+% ==============================================================================
+% SECTION 3: ICON DEFINITIONS - Component & Metadata Icons
+% ==============================================================================
+
+% Force icon sizing curve to fit neatly in header
+\newcommand{\spellschooliconstyled}[1]{\large\spellschoolicon{#1}}
+
+% Component icons with better spacing
+\newcommand{\verbalicon}{\faVolumeUp}
+\newcommand{\somaticicon}{\faHandPaper}
+\newcommand{\materialicon}{\faGem}
+
+% Component icon with spacing and styling
+\newcommand{\componenticon}[1]{\hspace{1mm}#1\hspace{1mm}}
+
+% ==============================================================================
+% SECTION 4: COMPONENT PARSER - Convert "V, S, M" to Icons
+% ==============================================================================
+
+% Parse components string and generate styled component section
+% Input: "V, S, M" or "V, G" etc.
+% Output: Icons with labels for each component present
+\newcommand{\parsecomponents}[1]{%
+  \def\hasverbal{0}%
+  \def\hassomatic{0}%
+  \def\hasmaterial{0}%
+  \def\componentlist{}%
+  % Check for V (verbal)
+  \str_if_in:nnTF{#1}{V}{\def\hasverbal{1}\def\componentlist{V}}{}%
+  % Check for S or G (somatic)
+  \str_if_in:nnTF{#1}{S}{\def\hassomatic{1}\edef\componentlist{\componentlist S}}{}%
+  \str_if_in:nnTF{#1}{G}{\def\hassomatic{1}\edef\componentlist{\componentlist G}}{}%
+  % Check for M (material)
+  \str_if_in:nnTF{#1}{M}{\def\hasmaterial{1}\edef\componentlist{\componentlist M}}{}%
+  % Generate icon sequence with spacing - compact horizontal layout
+  {\footnotesize\color{gray}
+  \ifnum\hasverbal=1 \faVolumeUp\hspace{0.5mm} \fi%
+  \ifnum\hassomatic=1 \faHandPaper\hspace{0.5mm} \fi%
+  \ifnum\hasmaterial=1 \faGem\hspace{0.5mm} \fi%
+  \textbf{\textit{(\componentlist)}}%
+  }%
+}
+
+% ==============================================================================
+% SECTION 5: ACTION METADATA ICONS
+% ==============================================================================
+
 \newcommand{\actionicon}{\faClock}
 \newcommand{\rangeicon}{\faRulerHorizontal}
 \newcommand{\saveicon}{\faBullseye}
 \newcommand{\durationicon}{\faHourglassHalf}
-\newcommand{\componenticon}{\faCubes}
-\newcommand{\concentrationicon}{\faBrain}
 
-% =========================
-% COLORS (Schulen)
-% =========================
-\definecolor{evocation}{HTML}{D97706}
-\definecolor{illusion}{HTML}{7C3AED}
-\definecolor{necromancy}{HTML}{374151}
-\definecolor{abjuration}{HTML}{2563EB}
-\definecolor{conjuration}{HTML}{059669}
-\definecolor{enchantment}{HTML}{DB2777}
-\definecolor{divination}{HTML}{CA8A04}
-\definecolor{transmutation}{HTML}{92400E}
+% ==============================================================================
+% SECTION 6: SPELL CARD TEMPLATE
+% ==============================================================================
 
-
-% =========================
-% CARD STYLE
-% =========================
-\newtcolorbox{spellcard}[1][]{
-    width=7.4cm,
-    height=10.5cm,
-    colback=white,
-    colframe=black,
-    boxrule=0.5pt,
-    arc=3mm,
-    auto outer arc,
-    left=2mm,
-    right=2mm,
+% Main card box (landscape style, 10.5cm x 7.25cm)
+% NOTE: Landscape orientation for better text layout and component display
+\newtcolorbox{spellcard}{
+    width=10.5cm,
+    height=7.25cm,
+    colback=cardbg,
+    colframe=cardframe,
+    boxrule=0.8pt,
+    arc=4mm,
+    left=2.5mm,
+    right=2.5mm,
     top=2mm,
     bottom=2mm,
-    #1
+    nobeforeafter
 }
 
-
-% =========================
-% SPELL COMMAND
-% =========================
-% Arguments:
-% 1 = Spell name
-% 2 = Spell school/color
-% 3 = Level & school text
-% 4 = Description (itemize allowed)
-% 5 = Higher-level text (optional)
-% 6 = Optional tcolorbox options
-
-\newcommand{\spell}[6]{
-\begin{spellcard}[#6]
-{\titlefont\color{#2}\textbf{#1}}\\
+% Spell command - 8 parameters
+% #1 = name
+% #2 = school (color key, e.g., "hervorrufungsmagie" - determines both color & display name)
+% #3 = level
+% #4 = casting_time
+% #5 = range
+% #6 = save
+% #7 = duration
+% #8 = components|description (separated by @@@)
+\def\spell#1#2#3#4#5#6#7#8{%
+\StrBefore{#8}{@@@}[\comp]%
+\StrBehind{#8}{@@@}[\desc]%
+\begin{spellcard}
+% Header: Title + School Icon
+{\titlefont\large\color{#2}#1}\hfill{\spellschooliconstyled{#2}}\\
+{\tiny\color{gray}Stufe #3 • \getschoolname{#2}}
 
 \vspace{2mm}
-\hrule
+{\color{#2}\hrule}
+\vspace{0.5mm}
+
+% Metadata Row 1: Action, Range
+{\footnotesize
+\actionicon\ #4 \hfill \rangeicon\ #5 \\
+}
+
+% Metadata Row 2: Save, Duration
+{\footnotesize
+{\color{#2}\saveicon\ #6} \hfill \durationicon\ #7
+}
+
+\vspace{0.5mm}
+{\color{#2}\hrule}
+
+% Components section with icons and labels
+\vspace{1mm}
+\parsecomponents{\comp}
 \vspace{1mm}
 
-\small
-\actionicon{} 1 Aktion \hfill \rangeicon{} Selbst (4,5 m Kegel)\\
-\saveicon{} GE-RW \hfill \durationicon{} Sofort\\
-\componenticon{} V, G
-
-\vspace{1mm}
-\hrule
-\vspace{1mm}
-
-#4
-
-\ifx #5\empty
-% do nothing if #5 is empty
-\else
-\vspace{1mm}
-\hrule
-\vspace{1mm}
-\small #5
-\fi
+% Description box (adjusted for landscape card - 10.5cm x 7.25cm)
+\parbox[c][3cm]{\linewidth}{%
+  \footnotesize \desc
+}
 
 \end{spellcard}
 }
+
+% ==============================================================================
+% SECTION 7: CARD BACK TEMPLATE
+% ==============================================================================
+% ==============================================================================
+% SECTION 7: CARD BACK TEMPLATE
+% ==============================================================================
+
+\newcommand{\cardback}{%
+\begin{spellcard}
+\centering
+\vspace*{\fill}
+{\titlefont\Large\color{cardframe} $\star$}
+\vspace{1em}
+
+{\large\color{gray}D\&D 5e}
+
+{\small\color{gray}Spell Cards}
+\vspace*{\fill}
+{\tiny\color{gray}Designed by Leon Greil}
+\end{spellcard}
+}
+

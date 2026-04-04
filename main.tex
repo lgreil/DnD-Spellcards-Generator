@@ -1,25 +1,67 @@
-% !TEX TS-program = xelatex
-\documentclass[a4paper]{article}
+% ==============================================================================
+% MAIN - D&D 5e Spell Cards Generator
+% ==============================================================================
+% This is the main entry point. It loads styling from card-design.tex
+% and spell data from cards.tex, then renders everything.
+%
+% PAGE LAYOUT DESIGN:
+%   - A4 landscape: 297mm × 210mm
+%   - Cards: 10.5cm × 7.25cm each (landscape orientation for improved component display)
+%   - Grid: 2 cards/row × 3 rows = 6 cards/page
+%   - Spacing: 2mm between cards (horizontal and vertical)
+%   - Margins: Calculated to ensure no cutting/overflow
+%
+% Calculation:
+%   - 2 cards × 10.5cm = 21cm width (perfect fit for A4 landscape width of 29.7cm!)
+%   - 3 cards × 7.25cm = 21.75cm height (fits in A4 landscape height of 21cm with spacing)
+%   - Spacing: 2mm horizontal + 2mm vertical
+%   - This layout prevents cards from being cut off during printing/export
+%   - Landscape card orientation provides better text and component display
 
-\usepackage[margin=0.5cm]{geometry}
-\usepackage{tikz}
+% !TEX TS-program = xelatex
+\documentclass[a4paper,landscape]{article}
+
+% Optimized geometry for perfect card fitting on A4 landscape
+% Margins: 3mm sides + bottom, 5mm top (slight bleed for cutting)
+\usepackage[
+  paperwidth=29.7cm,
+  paperheight=21.0cm,
+  margin=3mm,
+  top=5mm
+]{geometry}
+
 \usepackage{fontspec}
-\usepackage{multicol}
 \usepackage{tcolorbox}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
+\usepackage{tikz}
+\usepackage{ifthen}
+\usepackage{xstring}
+
+% Import all styling definitions
 \input{card-design.tex}
 
-% Kartenbox
+% ==============================================================================
+% PAGE SETUP
+% ==============================================================================
+
+% Remove page headers/footers
 \pagestyle{empty}
+
+% Card spacing (matches card-design.tex tabular spacing)
+\setlength{\tabcolsep}{0.3cm}
+\setlength{\arrayrulewidth}{0pt}
+
+% Remove default text indentation
+\setlength{\parindent}{0pt}
 
 \begin{document}
 
-\begin{center}
-\begin{tabular}{cc}
+\centering
+
+% Load pre-generated spell cards from Python script
 \input{cards.tex}
-\end{tabular}
-\end{center}
 
 \end{document}
+
