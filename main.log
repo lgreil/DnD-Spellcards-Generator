@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  4 APR 2026 13:42
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  4 APR 2026 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,7 +356,7 @@ Package fontspec Info:
 (fontspec)             Font family 'Inter_24pt(0)' created for font
 (fontspec)             'Inter_24pt' with options [Ligatures=TeX,Extension =
 (fontspec)             .ttf,Path = fonts/,UprightFont = *-Regular,BoldFont =
-(fontspec)             *-Bold].
+(fontspec)             *-Bold,ItalicFont = *-Italic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -365,6 +365,8 @@ Package fontspec Info:
 (fontspec)             <->"[fonts/Inter_24pt-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"[fonts/Inter_24pt-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/Inter_24pt-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -514,11 +516,11 @@ L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20393 strings out of 467992
- 467168 string characters out of 5433178
- 937511 words of memory out of 5000000
- 48993 multiletter control sequences out of 15000+600000
- 628842 words of font info for 69 fonts, out of 8000000 for 9000
+ 20405 strings out of 467992
+ 467609 string characters out of 5433178
+ 937568 words of memory out of 5000000
+ 49000 multiletter control sequences out of 15000+600000
+ 628866 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  116i,6n,121p,502b,884s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

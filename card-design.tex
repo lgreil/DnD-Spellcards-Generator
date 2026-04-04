@@ -7,12 +7,13 @@
   Extension      = .ttf,
   Path           = fonts/,
   UprightFont    = *-Regular,
-  BoldFont       = *-Bold]
+  BoldFont       = *-Bold,
+  ItalicFont     = *-Italic,]
 \newfontfamily\titlefont{Cinzel}[
   Extension      = .ttf,
   Path           = fonts/,
   UprightFont    = *-Regular,
-  BoldFont       = *-Bold]
+  BoldFont       = *-Bold,]
 
 % ======================================================================
 %  D&D 5e SPELL CARD – SCHOOL COLORS & ICONS REWRITE
@@ -38,6 +39,9 @@
 % 2. SCHOOL DATA (color + icon in one place)
 % ------------------------------------------------------------------
 \usepackage{fontawesome5}
+
+%Healing Icon 
+\newcommand{\ishealing}{\faHeart}
 
 % Define each school with a color + icon
 \expandafter\def\csname school@hervorrufungsmagie@color\endcsname{hervorrufungsmagie}
@@ -96,13 +100,16 @@
 % 4.  COMPONENT PARSER  (engine-agnostic)
 % ------------------------------------------------------------------
 \usepackage{xstring}
+
 \newcommand{\parsecomponents}[1]{%
   \begingroup\footnotesize\color{gray}%
   \IfSubStr{#1}{V}{\faVolumeUp\kern0.5mm}{}%
   \IfSubStr{#1}{S}{\faHandPaper\kern0.5mm}{}%
   \IfSubStr{#1}{G}{\faHandPaper\kern0.5mm}{}%
   \IfSubStr{#1}{M}{\faGem\kern0.5mm}{}%
-  \textbf{(\StrDel{#1}{ })}\endgroup}
+  \textbf{(#1)}%
+  \endgroup
+}
 
 % ------------------------------------------------------------------
 % 6.  CARD TEMPLATE  (10.5 cm × 7.25 cm landscape, 3 mm bleed)
@@ -144,19 +151,32 @@
   \vspace{1.5mm}
   {\color{\schoolcolor{#2}}\hrule}
 }
-
-% ------------------------------------------------------------------
-% META LINE (stats row)
-% ------------------------------------------------------------------
-\newcommand{\spellmeta}[4]{%
+% #1 = Action
+% #2 = Range
+% #3 = Components (V,S,G,M)
+% #4 = Duration
+% #5 = Optional Material (can be empty)
+\newcommand{\spellmeta}[5]{%
   {\footnotesize
-  \actionicon\ #1 \hfill \rangeicon\ #2 \\
-  \parsecomponents{#3} \hfill \durationicon\ #4
-  }
-   \vspace{1.5mm}
-    {\color{gray}\hrule}
-    \vspace{1.5mm}
+    % Top row: Action and Range
+    \actionicon\ #1 \hfill \rangeicon\ #2
+    \par
+    % Second row: Components icons + letters, and Duration
+    \parsecomponents{#3} \hfill \durationicon\ #4
+    \par
+    % Third row: Material in italics, only if provided
+    \ifx&#5&%
+      % nothing
+    \else
+      {\footnotesize\itshape #5\par}%
+    \fi
+  }%
+  \vspace{1.5mm}
+  {\color{gray}\hrule}
+  \vspace{1.5mm}
 }
+
+
 \newcommand{\spelldesc}[1]{%
   {\footnotesize\color{cardframe}#1}
 }
