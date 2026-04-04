@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Brennende Hände",
+    "level": 1,
+    "school": "Hervorrufungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "Selbst (4,5 m Kegel)",
+    "save": "GE-RW",
+    "duration": "Sofort",
+    "components": "V, G",
+    "description": [
+      "Flammenkegel aus deinen Händen",
+      "3W6 Feuerschaden",
+      "GE-RW → halb",
+      "Entzündet Objekte"
+    ]
+  },
+  {
+    "name": "Magische Rakete",
+    "level": 1,
+    "school": "Hervorrufungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "30 m",
+    "save": "—",
+    "duration": "Sofort",
+    "components": "V, S",
+    "description": [
+      "3 Geschosse + 1 pro 2 Level",
+      "1W4+1 Schaden pro Geschoss",
+      "Treffer fast garantiert"
+    ]
+  },
+  {
+    "name": "Schutzkreis",
+    "level": 1,
+    "school": "Bannmagie",
+    "casting_time": "1 Aktion",
+    "range": "Selbst (3 m Radius)",
+    "save": "—",
+    "duration": "Konzentration, bis 10 min",
+    "components": "V, G, M",
+    "description": [
+      "Kreis schützt bis zu 10 Kreaturen",
+      "Übernatürliche Wesen mit Nachteil",
+      "Existierende können nicht eindringen"
+    ]
+  },
+  {
+    "name": "Wendeschutz",
+    "level": 1,
+    "school": "Bannmagie",
+    "casting_time": "1 Aktion",
+    "range": "Berührung",
+    "save": "—",
+    "duration": "Konzentration, bis 1 min",
+    "components": "V, S, M",
+    "description": [
+      "Ziel erhält +2 auf Rettungswürfe",
+      "gegen magische Effekte",
+      "Immunität gegen Zauberstäbe der Lähmung"
+    ]
+  },
+  {
+    "name": "Beschwörung von Unholden",
+    "level": 1,
+    "school": "Beschwörungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "30 m",
+    "save": "—",
+    "duration": "Konzentration, bis 1 Stunde",
+    "components": "V, S, M",
+    "description": [
+      "Beschwöre bis zu 8 Unholde",
+      "Sie kämpfen für dich",
+      "Verschwinden bei 0 HP"
+    ]
+  },
+  {
+    "name": "Türöffner",
+    "level": 1,
+    "school": "Beschwörungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "30 m",
+    "save": "—",
+    "duration": "Sofort",
+    "components": "V, S",
+    "description": [
+      "Öffnet Türen, Fenster und Kisten",
+      "Auch magisch verschlossen",
+      "Max. Größe 20 Quadratfuß"
+    ]
+  },
+  {
+    "name": "Gedankengänge lesen",
+    "level": 2,
+    "school": "Erkenntnismagie",
+    "casting_time": "1 Aktion",
+    "range": "30 m",
+    "save": "INT-RW",
+    "duration": "Konzentration, bis 1 min",
+    "components": "V, S",
+    "description": [
+      "Lese oberflächliche Gedanken",
+      "Tiefere Gedanken mit erfolgreicher Aktion",
+      "Fähigkeiten erhöhen Schwierigkeit"
+    ]
+  },
+  {
+    "name": "Hellsicht",
+    "level": 2,
+    "school": "Erkenntnismagie",
+    "casting_time": "10 min",
+    "range": "Selbst",
+    "save": "—",
+    "duration": "Konzentration, bis 1 Stunde",
+    "components": "V, S, M",
+    "description": [
+      "Sieh magische Auren",
+      "Erkenne Schulen und Stärke",
+      "Unvergleichlich bei Erkundung"
+    ]
+  },
+  {
+    "name": "Charm Person",
+    "level": 1,
+    "school": "Verzauberungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "30 m",
+    "save": "WIS-RW",
+    "duration": "Konzentration, bis 1 Stunde",
+    "components": "V, S",
+    "description": [
+      "Mensch behandelt dich als vertrauten Freund",
+      "Endt wenn direkt verletzt",
+      "Endgetalter kennt Verzauberung"
+    ]
+  },
+  {
+    "name": "Reizung",
+    "level": 1,
+    "school": "Verzauberungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "60 m",
+    "save": "INT-RW",
+    "duration": "Konzentration, bis 1 min",
+    "components": "V",
+    "description": [
+      "Moralische Wesen reizen",
+      "Reagieren als im Kampf",
+      "Keine anderen Aktionen dieser Runde"
+    ]
+  },
+  {
+    "name": "Täuschung",
+    "level": 1,
+    "school": "Illusionsmagie",
+    "casting_time": "1 Aktion",
+    "range": "30 m",
+    "save": "INT-RW",
+    "duration": "Konzentration, bis 1 min",
+    "components": "S",
+    "description": [
+      "Schaffe Sinnestrugbild",
+      "Max. Würfel 1x1x2 m pro Level",
+      "Kein Schaden, nur Täuschung"
+    ]
+  },
+  {
+    "name": "Zauberhand",
+    "level": 0,
+    "school": "Verwandlungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "9 m",
+    "save": "—",
+    "duration": "1 Minute",
+    "components": "V, G",
+    "description": [
+      "Unsichtbare magische Hand erscheint",
+      "Kann Leichte Objekte bewegen",
+      "Trägt bis 5 kg"
+    ]
+  },
+  {
+    "name": "Metamorphose",
+    "level": 2,
+    "school": "Verwandlungsmagie",
+    "casting_time": "1 Aktion",
+    "range": "Berührung",
+    "save": "KON-RW",
+    "duration": "Konzentration, bis 1 min",
+    "components": "V, G",
+    "description": [
+      "Verwandle Kreatur in tierische Form",
+      "Max. Challenge Rating = Zauberlevel",
+      "Behalte Geistwerte"
+    ]
+  },
+  {
+    "name": "Totenbeschwörung",
+    "level": 1,
+    "school": "Nekromantie",
+    "casting_time": "1 MindAction",
+    "range": "30 m",
+    "save": "—",
+    "duration": "Sofort",
+    "components": "V, S, M",
+    "description": [
+      "Verursache 1W8+4 Nekromantie-Schaden",
+      "ST gegen Betäubung",
+      "Pro 2 Level +1 Würfel Schaden"
+    ]
+  },
+  {
+    "name": "Bild des Todes",
+    "level": 3,
+    "school": "Nekromantie",
+    "casting_time": "1 Minute",
+    "range": "10 m",
+    "save": "—",
+    "duration": "Bis zu 1 Stunde",
+    "components": "V, S, M",
+    "description": [
+      "Gestalt mit 1 HP darstellen",
+      "Sieht echt aus wenn direkt untersucht",
+      "Illusion bei Kampf enthüllt"
+    ]
+  }
+]
