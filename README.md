@@ -8,7 +8,7 @@ Ein Python-basiertes Tool, das eine strukturierte JSON-Zauberliste (Spells.json)
 - Konsistente Kartendesigns mit Farbschema je Magieschule
 - Pflege und Erweiterung von Zaubertexten in einem leicht editierbaren Datenformat
 
-![Beispielbild](image.png)
+![Beispielbild](./demo/demo.png)
 
 
 ---
