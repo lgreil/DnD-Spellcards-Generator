@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Feuerpfeil",
+    "school": "hervorrufungsmagie",
+    "level": 0,
+    "casting_time": "1 Aktion",
+    "range": "36 m",
+    "components": "V,G",
+    "duration": "Sofort",
+    "description": "Du schleuderst einen Feuerstrahl auf ein Ziel.\nBei einem Treffer: 1W10 Feuerschaden.\nDer Schaden steigt mit deiner Stufe.",
+    "page": 242
+  },
+  {
+    "name": "Magierhand",
+    "school": "beschwörungsmagie",
+    "level": 0,
+    "casting_time": "1 Aktion",
+    "range": "9 m",
+    "components": "V,G",
+    "duration": "1 Minute",
+    "description": "Eine spektrale Hand erscheint.\nSie kann Gegenstände bis 5 kg bewegen.\nKeine Angriffe möglich.",
+    "page": 256
+  },
+  {
+    "name": "Licht",
+    "school": "hervorrufungsmagie",
+    "level": 0,
+    "casting_time": "1 Aktion",
+    "range": "Berührung",
+    "components": "V,M",
+    "duration": "1 Stunde",
+    "material": "Feuerzeug oder Glühwürmchen",
+    "description": "Ein Objekt beginnt zu leuchten.\nErzeugt helles Licht in 6 m Radius.",
+    "page": 255
+  },
+  {
+    "name": "Säurespritzer",
+    "school": "hervorrufungsmagie",
+    "level": 0,
+    "casting_time": "1 Aktion",
+    "range": "18 m",
+    "components": "V,G",
+    "duration": "Sofort",
+    "description": "Zwei Kreaturen müssen einen Geschicklichkeitsrettungswurf bestehen.\nBei Fehlschlag: 1W6 Säureschaden.",
+    "page": 271
+  },
+  {
+    "name": "Heilendes Wort",
+    "school": "hervorrufungsmagie",
+    "level": 1,
+    "casting_time": "1 Bonusaktion",
+    "range": "18 m",
+    "components": "V",
+    "duration": "Sofort",
+    "description": "Eine Kreatur erhält Trefferpunkte zurück.\nHeilung: 1W4 + Modifikator.",
+    "healing": true,
+    "page": 250
+  },
+  {
+    "name": "Magisches Geschoss",
+    "school": "hervorrufungsmagie",
+    "level": 1,
+    "casting_time": "1 Aktion",
+    "range": "36 m",
+    "components": "V,G",
+    "duration": "Sofort",
+    "description": "Drei leuchtende Geschosse treffen automatisch.\nJedes verursacht 1W4+1 Energieschaden.",
+    "page": 257
+  },
+  {
+    "name": "Schild",
+    "school": "bannmagie",
+    "level": 1,
+    "casting_time": "1 Reaktion",
+    "range": "Selbst",
+    "components": "V,G",
+    "duration": "1 Runde",
+    "description": "+5 auf RK gegen einen Angriff.\nVerhindert Magisches Geschoss.",
+    "page": 275
+  },
+  {
+    "name": "Unsichtbarkeit",
+    "school": "illusionsmagie",
+    "level": 2,
+    "casting_time": "1 Aktion",
+    "range": "Berührung",
+    "components": "V,G,M",
+    "duration": "Konz., 1 Stunde",
+    "material": "Fledermausflügel",
+    "description": "Eine Kreatur wird unsichtbar.\nEndet bei Angriff oder Zauberwirken.",
+    "page": 284
+  },
+  {
+    "name": "Spiegelbild",
+    "school": "illusionsmagie",
+    "level": 2,
+    "casting_time": "1 Aktion",
+    "range": "Selbst",
+    "components": "V,G",
+    "duration": "1 Minute",
+    "description": "Drei illusorische Duplikate erscheinen.\nErhöhen deine Verteidigungschancen.",
+    "page": 278
+  },
+  {
+    "name": "Feuerball",
+    "school": "hervorrufungsmagie",
+    "level": 3,
+    "casting_time": "1 Aktion",
+    "range": "45 m",
+    "components": "V,G,M",
+    "duration": "Sofort",
+    "material": "Phosphor",
+    "description": "Explosion mit 6 m Radius.\n8W6 Feuerschaden (RW halbiert).",
+    "page": 241
+  },
+  {
+    "name": "Blitzstrahl",
+    "school": "hervorrufungsmagie",
+    "level": 3,
+    "casting_time": "1 Aktion",
+    "range": "30 m Linie",
+    "components": "V,G,M",
+    "duration": "Sofort",
+    "material": "Fischeier",
+    "description": "8W6 Blitzschaden in Linie.\nGeschicklichkeitsrettungswurf halbiert.",
+    "page": 219
+  },
+  {
+    "name": "Fliegen",
+    "school": "verwandlungsmagie",
+    "level": 3,
+    "casting_time": "1 Aktion",
+    "range": "Berührung",
+    "components": "V,G,M",
+    "duration": "Konz., 10 Min.",
+    "material": "Greiffeder",
+    "description": "Ziel erhält Fluggeschwindigkeit von 18 m.",
+    "page": 244
+  },
+  {
+    "name": "Dimensionstor",
+    "school": "beschwörungsmagie",
+    "level": 4,
+    "casting_time": "1 Aktion",
+    "range": "150 m",
+    "components": "V",
+    "duration": "Sofort",
+    "description": "Teleportiere dich und eine weitere Kreatur.",
+    "page": 233
+  },
+  {
+    "name": "Eissturm",
+    "school": "hervorrufungsmagie",
+    "level": 4,
+    "casting_time": "1 Aktion",
+    "range": "90 m",
+    "components": "V,G,M",
+    "duration": "Sofort",
+    "description": "2W8 Wucht + 4W6 Kälteschaden.\nGebiet wird schwieriges Gelände.",
+    "page": 239
+  },
+  {
+    "name": "Telekinese",
+    "school": "verwandlungsmagie",
+    "level": 5,
+    "casting_time": "1 Aktion",
+    "range": "18 m",
+    "components": "V,G",
+    "duration": "Konz., 10 Min.",
+    "description": "Bewege Kreaturen oder Objekte mit deinem Geist.",
+    "page": 281
+  }
+]
