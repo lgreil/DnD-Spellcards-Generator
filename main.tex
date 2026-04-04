@@ -1,3 +1,8 @@
+
+
+% !TEX TS-program = xelatex
+\documentclass[a4paper,landscape]{article}
+
 % ==============================================================================
 % MAIN - D&D 5e Spell Cards Generator
 % ==============================================================================
@@ -18,8 +23,6 @@
 %   - This layout prevents cards from being cut off during printing/export
 %   - Landscape card orientation provides better text and component display
 
-% !TEX TS-program = xelatex
-\documentclass[a4paper,landscape]{article}
 
 % Optimized geometry for perfect card fitting on A4 landscape
 % Margins: 3mm sides + bottom, 5mm top (slight bleed for cutting)
@@ -31,7 +34,7 @@
 ]{geometry}
 
 \usepackage{fontspec}
-\usepackage{tcolorbox}
+\usepackage[skins]{tcolorbox}   % skins is the only library we use
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
@@ -58,10 +61,20 @@
 
 \begin{document}
 
-\centering
+% ---------- 2 × 3 GRID ----------
+% horizontal gap = 2 mm = 0.2 cm
+% vertical gap   = 2 mm = 0.2 cm
+\makeatletter
+\newcount\rowcount
+\rowcount=0
+\def\finishrow{\ifnum\rowcount=2 \par\vspace{0.2cm}\rowcount=0\fi}
 
 % Load pre-generated spell cards from Python script
 \input{cards.tex}
+
+% --- flush the last partial row ----------------------------------------------
+\ifnum\rowcount>0 \par\fi
+\makeatother
 
 \end{document}
 
