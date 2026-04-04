@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  4 APR 2026 11:26
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  4 APR 2026 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -492,43 +492,701 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 54.
-(./cards.tex [1
+(./cards.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
 
-]
 
-./cards.tex:126: Package xcolor Error: Undefined color `Bannmagie'.
+./cards.tex:8: Package xcolor Error: Undefined color `36 m'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 {\titlefont\small\color{Bannmagie}
-                                        Schild}\\
+l.8 \spellmeta {1 Aktion} {36 m} {V,S} {Sofort}
+                                               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 148.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 148.
+./cards.tex:9: Undefined control sequence.
+l.9 \spelldesc
+              {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (364.96886pt too wide) in paragraph at lines 148--151
+
+./cards.tex:23: Package xcolor Error: Undefined color `beschwörung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...k (Stufe 0) • \getschoolname{beschwörung}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:23: Package xcolor Error: Undefined color `beschwörung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...k (Stufe 0) • \getschoolname{beschwörung}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:23: Package xcolor Error: Undefined color `beschwörung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...k (Stufe 0) • \getschoolname{beschwörung}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:26: Package xcolor Error: Undefined color `9 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \spellmeta {1 Aktion} {9 m} {V,S} {1 Minute}
+                                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:27: Undefined control sequence.
+l.27 \spelldesc
+               {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:44: Package xcolor Error: Undefined color `Berührung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...ta {1 Aktion} {Berührung} {V,M} {1 Stunde}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:45: Undefined control sequence.
+l.45 \spelldesc
+               {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:61: Package xcolor Error: Undefined color `18 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \spellmeta {1 Aktion} {18 m} {V,S} {Sofort}
+                                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:62: Undefined control sequence.
+l.62 \spelldesc
+               {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:78: Package xcolor Error: Undefined color `18 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...llmeta {1 Bonusaktion} {18 m} {V} {Sofort}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:79: Undefined control sequence.
+l.79 \spelldesc
+               {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+]
+
+./cards.tex:95: Package xcolor Error: Undefined color `36 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \spellmeta {1 Aktion} {36 m} {V,S} {Sofort}
+                                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:96: Undefined control sequence.
+l.96 \spelldesc
+               {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:109: Package xcolor Error: Undefined color `abjurationsmagie'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...rad 1 • \getschoolname{abjurationsmagie}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:109: Package xcolor Error: Undefined color `abjurationsmagie'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...rad 1 • \getschoolname{abjurationsmagie}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:109: Package xcolor Error: Undefined color `abjurationsmagie'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...rad 1 • \getschoolname{abjurationsmagie}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:112: Package xcolor Error: Undefined color `Selbst'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...eta {1 Reaktion} {Selbst} {V,S} {1 Runde}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:113: Undefined control sequence.
+l.113 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:126: Package xcolor Error: Undefined color `illusion'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126   {Grad 2 • \getschoolname{illusion}}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:126: Package xcolor Error: Undefined color `illusion'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126   {Grad 2 • \getschoolname{illusion}}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:126: Package xcolor Error: Undefined color `illusion'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126   {Grad 2 • \getschoolname{illusion}}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:129: Package xcolor Error: Undefined color `Berührung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...on} {Berührung} {V,S,M} {Konz., 1 Stunde}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:130: Undefined control sequence.
+l.130 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2]
+
+./cards.tex:143: Package xcolor Error: Undefined color `illusion'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143   {Grad 2 • \getschoolname{illusion}}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:143: Package xcolor Error: Undefined color `illusion'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143   {Grad 2 • \getschoolname{illusion}}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:143: Package xcolor Error: Undefined color `illusion'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143   {Grad 2 • \getschoolname{illusion}}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:146: Package xcolor Error: Undefined color `Selbst'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...meta {1 Aktion} {Selbst} {V,S} {1 Minute}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:147: Undefined control sequence.
+l.147 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:163: Package xcolor Error: Undefined color `45 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...llmeta {1 Aktion} {45 m} {V,S,M} {Sofort}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:164: Undefined control sequence.
+l.164 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:180: Package xcolor Error: Undefined color `30 m Linie'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 ... {1 Aktion} {30 m Linie} {V,S,M} {Sofort}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:181: Undefined control sequence.
+l.181 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+
+./cards.tex:194: Package xcolor Error: Undefined color `verwandlung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194   {Grad 3 • \getschoolname{verwandlung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:194: Package xcolor Error: Undefined color `verwandlung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194   {Grad 3 • \getschoolname{verwandlung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:194: Package xcolor Error: Undefined color `verwandlung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194   {Grad 3 • \getschoolname{verwandlung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:197: Package xcolor Error: Undefined color `Berührung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 ...} {Berührung} {V,S,M} {Konz., 10 Minuten}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:198: Undefined control sequence.
+l.198 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:210: Package xcolor Error: Undefined color `beschwörung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210   {Grad 4 • \getschoolname{beschwörung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:210: Package xcolor Error: Undefined color `beschwörung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210   {Grad 4 • \getschoolname{beschwörung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:210: Package xcolor Error: Undefined color `beschwörung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210   {Grad 4 • \getschoolname{beschwörung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:213: Package xcolor Error: Undefined color `150 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \spellmeta {1 Aktion} {150 m} {V} {Sofort}
+                                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:214: Undefined control sequence.
+l.214 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./cards.tex:229: Package xcolor Error: Undefined color `90 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ...llmeta {1 Aktion} {90 m} {V,S,M} {Sofort}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:230: Undefined control sequence.
+l.230 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4]
+
+./cards.tex:243: Package xcolor Error: Undefined color `verwandlung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243   {Grad 5 • \getschoolname{verwandlung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:243: Package xcolor Error: Undefined color `verwandlung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243   {Grad 5 • \getschoolname{verwandlung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:243: Package xcolor Error: Undefined color `verwandlung'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243   {Grad 5 • \getschoolname{verwandlung}}
+                                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./cards.tex:246: Package xcolor Error: Undefined color `18 m'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 ... Aktion} {18 m} {V,S} {Konz., 10 Minuten}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cards.tex:247: Undefined control sequence.
+l.247 \spelldesc
+                {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 255.
+./cards.tex:255: Undefined control sequence.
+<argument> \gap 
+                
+l.255 \cardback
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cards.tex:255: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.255 \cardback
+               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./cards.tex:255: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.255 \cardback
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./cards.tex:256: Undefined control sequence.
+<argument> \gap 
+                
+l.256 \cardback
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cards.tex:256: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.256 \cardback
+               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./cards.tex:256: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.256 \cardback
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./cards.tex:257: Undefined control sequence.
+<argument> \gap 
+                
+l.257 \cardback
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cards.tex:257: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.257 \cardback
+               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./cards.tex:257: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.257 \cardback
+               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+)
+Overfull \hbox (364.96886pt too wide) in paragraph at lines 255--57
 [][][][] 
  []
 
-) [2] [3] (./main.aux)
+[5] [6] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20361 strings out of 467992
- 466520 string characters out of 5433178
- 935936 words of memory out of 5000000
- 48969 multiletter control sequences out of 15000+600000
- 628826 words of font info for 67 fonts, out of 8000000 for 9000
+ 20394 strings out of 467992
+ 467091 string characters out of 5433178
+ 937375 words of memory out of 5000000
+ 48999 multiletter control sequences out of 15000+600000
+ 628842 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  116i,6n,121p,502b,884s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (6 pages).

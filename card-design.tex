@@ -91,9 +91,9 @@
 \usepackage[skins]{tcolorbox}
 \newtcolorbox{spellcard}{
   enhanced,
-  width       = 10.5cm + 6mm,      % 3 mm bleed left+right
-  height      = 7.25cm + 6mm,      % 3 mm bleed top+bottom
-  left        = 5.5mm,             % 3 mm bleed + 2.5 mm safe
+  width       = 10.5cm + 6mm,   % ← was wrong before
+  height      = 7.25cm + 6mm,   % ← was wrong before
+  left        = 5.5mm,
   right       = 5.5mm,
   top         = 5mm,
   bottom      = 5mm,
@@ -102,6 +102,47 @@
   boxrule     = 0.8pt,
   arc         = 4mm,
   nobeforeafter,
+}
+
+% ------------------------------------------------------------------
+% HEADER WITH ICON (top-right aligned)
+% ------------------------------------------------------------------
+\newcommand{\spellheader}[3]{%
+  % #1 = title
+    % #2 = school key (color + icon)
+    % #3 = subtitle (level etc.)
+
+    \noindent
+    \begin{minipage}{0.78\linewidth}
+      {\titlefont\small\color{#2}\textbf{#1}}\\
+      {\tiny\color{gray}#3}
+    \end{minipage}%
+    \begin{minipage}{0.2\linewidth}
+      \raggedleft
+      {\Large\color{#2}\spellschoolicon{#2}}
+    \end{minipage}
+
+    \vspace{1.5mm}
+    {\color{#2}\hrule}
+}
+
+
+% ------------------------------------------------------------------
+% META LINE (stats row)
+% ------------------------------------------------------------------
+\newcommand{\spellmeta}[4]{%
+  {\footnotesize
+  \actionicon\ #1 \hfill \rangeicon\ #2 \\
+  \parsecomponents{#3} \hfill \durationicon\ #4
+  }
+   \vspace{1.5mm}
+    {\color{#2}\hrule}
+    \vspace{1.5mm}
+}
+
+
+\newcommand{\spellpage}[1]{%
+  \hfill{\tiny\color{gray}S.~#1}%
 }
 % ------------------------------------------------------------------
 % 8.  SPELL COMMAND  (only 2 arguments, for simplicity)
@@ -121,6 +162,6 @@
 {\titlefont\Large\color{cardframe}$\star$}\\[1ex]
 {\large\color{gray}D\&D 5e}\\[0.5ex]
 {\small\color{gray}Spell Cards}
-\vspace*{\fill}
+\vspace*{\gap}
 {\tiny\color{gray}Designed by Leon Greil}
 \end{spellcard}}
