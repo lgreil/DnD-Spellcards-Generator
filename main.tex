@@ -1,59 +1,62 @@
-
-
 % !TEX TS-program = xelatex
-\documentclass[a4paper,landscape]{article}
+\documentclass[a4paper,portrait]{article}
 
-% ==============================================================================
-% MAIN - D&D 5e Spell Cards Generator
-% ==============================================================================
-% This is the main entry point. It loads styling from card-design.tex
-% and spell data from cards.tex, then renders everything.
-%
-% PAGE LAYOUT DESIGN:
-%   - A4 landscape: 297mm × 210mm
-%   - Cards: 10.5cm × 7.25cm each (landscape orientation for improved component display)
-%   - Grid: 2 cards/row × 3 rows = 6 cards/page
-%   - Spacing: 2mm between cards (horizontal and vertical)
-%   - Margins: Calculated to ensure no cutting/overflow
-%
-% Calculation:
-%   - 2 cards × 10.5cm = 21cm width (perfect fit for A4 landscape width of 29.7cm!)
-%   - 3 cards × 7.25cm = 21.75cm height (fits in A4 landscape height of 21cm with spacing)
-%   - Spacing: 2mm horizontal + 2mm vertical
-%   - This layout prevents cards from being cut off during printing/export
-%   - Landscape card orientation provides better text and component display
-
-
-% Rigid page layout with no LaTeX margin glue
 \usepackage[
-  paperwidth=297mm,
-  paperheight=210mm,
-  margin=0mm,
+  paperwidth  = 297mm,
+  paperheight = 210mm,
+  top=3mm, bottom=3mm, left=3mm, right=3mm,
   noheadfoot
 ]{geometry}
 
 \usepackage{fontspec}
-\usepackage[skins]{tcolorbox}   % skins is the only library we use
-\usepackage{enumitem}
+\usepackage[skins]{tcolorbox}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
-\usepackage{tikz}
-\usepackage{ifthen}
 \usepackage{xstring}
+\usepackage{ifthen}
+\usepackage{array}
 
-% Import all styling definitions
 \input{card-design.tex}
 
-% ==============================================================================
-% PAGE SETUP
-% ==============================================================================
-
-% Remove page headers/footers
 \pagestyle{empty}
+\parindent=0pt
+\parskip=0pt
+
+% Card size: 4 cols x 2 rows on A4 landscape
+% Usable: 291mm x 204mm
+% Card: 71mm x 100mm, gap: 2mm
+\newlength{\CW}\setlength{\CW}{71mm}
+\newlength{\CH}\setlength{\CH}{100mm}
+
+\renewtcolorbox{spellcard}{
+  enhanced,
+  width    = \CW,
+  height   = \CH,
+  left     = 3mm,  right  = 3mm,
+  top      = 2.5mm, bottom = 2.5mm,
+  colback  = cardbg,
+  colframe = cardframe,
+  boxrule  = 0.6pt,
+  arc      = 3mm,
+  nobeforeafter,
+  fontupper = \fontsize{6.5}{8}\selectfont,
+}
+
+% One page of 8 cards: supply exactly 8 card commands as arguments
+% Usage: \cardpage{card1}{card2}{card3}{card4}{card5}{card6}{card7}{card8}
+\newcommand{\cardpage}[8]{%
+  \noindent
+  \begin{tabular}{@{}p{\CW}@{\hspace{2mm}}p{\CW}@{\hspace{2mm}}p{\CW}@{\hspace{2mm}}p{\CW}@{}}
+    #1 & #2 & #3 & #4 \\[2mm]
+    #5 & #6 & #7 & #8 \\
+  \end{tabular}%
+  \newpage
+}
+
+\newcommand{\emptycard}{%
+  \begin{spellcard}\end{spellcard}%
+}
 
 \begin{document}
-
 \input{cards.tex}
-
 \end{document}
-
