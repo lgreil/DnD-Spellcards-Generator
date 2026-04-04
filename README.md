@@ -5,6 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/lgreil/DnD-Spellcards-Generator)
 ![Repo Size](https://img.shields.io/github/repo-size/lgreil/DnD-Spellcards-Generator)
 ![License](https://img.shields.io/github/license/lgreil/DnD-Spellcards-Generator)
+![Build](https://github.com/lgreil/DnD-Spellcards-Generator/actions/workflows/latex.yml/badge.svg)
 
 A minimal, code-driven generator for **printable D&D 5e spell cards** using LaTeX.
 
@@ -118,51 +119,8 @@ Not affiliated with Wizards of the Coast.
 
 ## 🧭 Roadmap
 
-* [ ] JSON → LaTeX pipeline
+* [X] JSON → LaTeX pipeline
 * [ ] Auto icon detection
 * [ ] Multi-language support
-* [ ] Duplex / card backs
+* [X] Duplex / card backs
 * [ ] Web preview tool
-
-```
-
----
-
-## 🔥 Optional upgrade (HIGHLY recommended)
-
-If you want one **really sexy badge upgrade**, add a build badge via GitHub Actions:
-
-### 1. Create file:
-```
-
-.github/workflows/latex.yml
-
-````
-
-### 2. Paste this:
-
-```yaml
-name: Build LaTeX PDF
-
-on:
-  push:
-  pull_request:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Compile LaTeX
-        uses: xu-cheng/latex-action@v3
-        with:
-          root_file: cards.tex
-````
-
-### 3. Then add this badge at the top:
-
-```md
-![Build](https://github.com/lgreil/DnD-Spellcards-Generator/actions/workflows/latex.yml/badge.svg)
-```
