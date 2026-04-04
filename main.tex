@@ -51,26 +51,6 @@
 % Remove page headers/footers
 \pagestyle{empty}
 
-% Rigid fixed-size card grid, no stretchable glue
-\newlength{\cardwidth}   \setlength{\cardwidth}{105mm}
-\newlength{\cardheight}  \setlength{\cardheight}{72.5mm}
-\newlength{\gap}         \setlength{\gap}{2mm}
-
-% total width needed: 2 cards + 1 gap
-\newlength{\gridwidth}   \setlength{\gridwidth}{\dimexpr 2\cardwidth + \gap\relax}
-\newlength{\cardleftmargin}  \setlength{\cardleftmargin}{\dimexpr (297mm - \gridwidth)/2\relax}
-
-% vertical position: 3 rows + 2 gaps, centred
-\newlength{\cardtopmargin}   \setlength{\cardtopmargin}{\dimexpr (210mm - 3\cardheight - 2\gap)/2\relax}
-
-\setlength{\tabcolsep}{0pt}
-\setlength{\arrayrulewidth}{0pt}
-
-\newcommand{\hgap}{\hspace{\gap}}
-\newcommand{\vgap}{\vspace{\gap}}
-
-\setlength{\parindent}{0pt}
-
 \begin{document}
 
 \input{cards.tex}

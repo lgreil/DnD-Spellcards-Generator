@@ -86,32 +86,6 @@
   \textbf{(\StrDel{#1}{ })}\endgroup}
 
 % ------------------------------------------------------------------
-% 5.  BLEED & SAFE BOX
-% ------------------------------------------------------------------
-\usepackage{tikz}
-\usetikzlibrary{calc}
-\newcommand{\drawcuts}[1]{%  #1 = colour of cut marks
-\begin{tikzpicture}[overlay,remember picture]
-  % 3 mm bleed on every side
-  \def\bleed{3mm}
-  % card size + bleed
-  \path ([shift={(-\bleed,-\bleed)}]current page.north west)
-        rectangle
-        ([shift={(\bleed,\bleed)}]current page.south east);
-  % cut marks (hairlines, 1 mm long)
-  \foreach \x in {0,1}{
-    \foreach \y in {0,1}{
-      \coordinate (C) at ($(current page.north west)!\x!(current page.north east)$);
-      \coordinate (C) at ($(C)!\y!(current page.south west)$);
-      \draw[#1,line width=0.1mm]
-        ([shift={(-\bleed,0)}]C) -- ++(1mm,0)
-        ([shift={( \bleed,0)}]C) -- ++(-1mm,0)
-        ([shift={(0,-\bleed)}]C) -- ++(0,1mm)
-        ([shift={(0, \bleed)}]C) -- ++(0,-1mm);
-    }}
-\end{tikzpicture}}
-
-% ------------------------------------------------------------------
 % 6.  CARD TEMPLATE  (10.5 cm × 7.25 cm landscape, 3 mm bleed)
 % ------------------------------------------------------------------
 \usepackage[skins]{tcolorbox}
@@ -128,50 +102,14 @@
   boxrule     = 0.8pt,
   arc         = 4mm,
   nobeforeafter,
-  overlay={\drawcuts{gray!50}}     % light cut marks
 }
-
 % ------------------------------------------------------------------
-% 7.  TITLE WITH OUTLINE  (legible even if colour fails)
+% 8.  SPELL COMMAND  (only 2 arguments, for simplicity)
 % ------------------------------------------------------------------
-\newcommand{\spelltitle}[2]{%  #1 = school colour  #2 = text
-  \begin{tikzpicture}
-    \node[anchor=base,inner sep=0pt,outer sep=0pt]
-         {\titlefont\large\strut#2};
-    \node[anchor=base,inner sep=0pt,outer sep=0pt,
-          text=white,align=center,draw=titlestroke,line width=0.15mm]
-         {\titlefont\large\strut#2};
-  \end{tikzpicture}}
-
-% ------------------------------------------------------------------
-% 8.  SPELL COMMAND  (same 8 arguments as before)
-% ------------------------------------------------------------------
-\def\spell#1#2#3#4#5#6#7#8{%
-\StrBefore{#8}{@@@}[\comp]%
-\StrBehind{#8}{@@@}[\desc]%
-\begin{spellcard}
-% header
-\spelltitle{#2}{#1}\hfill{\large\color{#2}\spellschoolicon{#2}}\\[-1mm]
-{\tiny\color{gray}Stufe #3 • \getschoolname{#2}}
-
-\vspace{1.5mm}
-{\color{#2}\hrule}
-\vspace{0.5mm}
-
-% meta
-{\footnotesize\actionicon\ #4\hfill\rangeicon\ #5\\}
-{\footnotesize\color{#2}\saveicon\ #6\hfill\durationicon\ #7}
-
-\vspace{0.5mm}
-{\color{#2}\hrule}
-\vspace{1mm}
-
-\parsecomponents{\comp}
-\vspace{1mm}
-
-% description
-\parbox[c][2.8cm]{\linewidth}{\footnotesize\desc}
-\end{spellcard}}
+\newenvironment{spell}[2]{
+  \textbf{#1} (#2)
+}{
+}
 
 % ------------------------------------------------------------------
 % 9.  CARD BACK  (mirrored so centre is correct after cutting)
