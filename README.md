@@ -77,16 +77,6 @@ Du schleuderst einen Feuerstrahl auf ein Ziel...
 
 ---
 
-## 🛠️ Customization
-
-### Spell Schools
-
-```latex
-\getschoolname{hervorrufungsmagie}
-```
-
----
-
 ### Layout System
 
 | Command        | Purpose                 |
@@ -106,13 +96,6 @@ Du schleuderst einen Feuerstrahl auf ein Ziel...
 
 ---
 
-## 📚 Data
-
-Spell data is based on **D&D 5e (PHB 2024)**.
-
-> This repository does not include copyrighted spell datasets by default.
-
----
 
 ## 📍 Repository
 
