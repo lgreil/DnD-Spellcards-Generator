@@ -14,55 +14,74 @@
   UprightFont    = *-Regular,
   BoldFont       = *-Bold]
 
+% ======================================================================
+%  D&D 5e SPELL CARD – SCHOOL COLORS & ICONS REWRITE
+% ======================================================================
+
 % ------------------------------------------------------------------
-% 1.  COLOURS  (CMYK – cheap ink)
+% 1. COLORS (CMYK – rich & appealing)
 % ------------------------------------------------------------------
-\usepackage{xcolor}
 \definecolor{cardbg}{cmyk}{0,0,0,0.02}        % almost white
-\definecolor{cardframe}{cmyk}{0,0,0,0.85}      % rich black
-\definecolor{titlestroke}{cmyk}{0,0,0,1}       % pure black outline
+\definecolor{cardframe}{cmyk}{0,0,0,0.85}     % strong black
+\definecolor{titlestroke}{cmyk}{0,0,0,1}      % pure black outline
 
-% School colours (CMYK, 60 % saturation to save ink)
-\definecolor{hervorrufungsmagie}{cmyk}{0 ,0.45,1 ,0}
-\definecolor{bannmagie}         {cmyk}{1 ,0.30,0 ,0}
-\definecolor{beschwoerungsmagie}{cmyk}{0.85,0 ,0.55,0}
-\definecolor{erkenntnismagie}   {cmyk}{0 ,0.55,1 ,0}
-\definecolor{verzauberungsmagie}{cmyk}{0 ,1 ,0.35,0.15}
-\definecolor{illusionsmagie}    {cmyk}{0.45,0.65,0 ,0}
-\definecolor{verwandlungsmagie} {cmyk}{0 ,0.70,1 ,0.25}
-\definecolor{nekromantie}       {cmyk}{0.30,0.25,0.30,0.45}
+\definecolor{hervorrufungsmagie}{cmyk}{0,0.55,1,0.05}      % Evocation → flame orange
+\definecolor{bannmagie}         {cmyk}{0.95,0.40,0,0}      % Abjuration → deep blue
+\definecolor{beschwörungsmagie}{cmyk}{0.80,0,0.50,0.05}    % Conjuration → vivid purple
+\definecolor{erkenntnismagie}   {cmyk}{0.10,0.60,1,0}       % Divination → cyan
+\definecolor{verzauberungsmagie}{cmyk}{0,0.90,0.40,0}      % Enchantment → magenta
+\definecolor{illusionsmagie}    {cmyk}{0.40,0.70,0,0}       % Illusion → teal
+\definecolor{verwandlungsmagie} {cmyk}{0.10,0.75,1,0.10}    % Transmutation → lime
+\definecolor{nekromantie}       {cmyk}{0.35,0.35,0.35,0.55} % Necromancy → dark purple-gray
 
 % ------------------------------------------------------------------
-% 2.  SCHOOL LOOKUP  (unchanged interface)
+% 2. SCHOOL DATA (color + icon in one place)
 % ------------------------------------------------------------------
 \usepackage{fontawesome5}
-\newcommand{\getschoolname}[1]{%
-  \ifcsname school@#1@name\endcsname
-    \csname school@#1@name\endcsname
-  \fi}
-\newcommand{\getschoolcolor}[1]{#1}
-\newcommand{\spellschoolicon}[1]{%
-  \ifcsname school@#1@icon\endcsname
-    \csname school@#1@icon\endcsname
-  \fi}
 
-% central definition
-\expandafter\def\csname school@hervorrufungsmagie@name\endcsname{Hervorrufungsmagie}
+% Define each school with a color + icon
+\expandafter\def\csname school@hervorrufungsmagie@color\endcsname{hervorrufungsmagie}
 \expandafter\def\csname school@hervorrufungsmagie@icon\endcsname{\faFire}
-\expandafter\def\csname school@bannmagie@name\endcsname{Bannmagie}
+\expandafter\def\csname school@hervorrufungsmagie@name\endcsname{Hervorrufungsmagie}
+
+\expandafter\def\csname school@bannmagie@color\endcsname{bannmagie}
 \expandafter\def\csname school@bannmagie@icon\endcsname{\faShield*}
-\expandafter\def\csname school@beschwoerungsmagie@name\endcsname{Beschwörungsmagie}
-\expandafter\def\csname school@beschwoerungsmagie@icon\endcsname{\faMagic}
-\expandafter\def\csname school@erkenntnismagie@name\endcsname{Erkenntnismagie}
+\expandafter\def\csname school@bannmagie@name\endcsname{Bannmagie}
+
+\expandafter\def\csname school@beschwörungsmagie@color\endcsname{beschwörungsmagie}
+\expandafter\def\csname school@beschwörungsmagie@icon\endcsname{\faMagic}
+\expandafter\def\csname school@beschwörungsmagie@name\endcsname{Beschwörungsmagie}
+
+\expandafter\def\csname school@erkenntnismagie@color\endcsname{erkenntnismagie}
 \expandafter\def\csname school@erkenntnismagie@icon\endcsname{\faEye}
-\expandafter\def\csname school@verzauberungsmagie@name\endcsname{Verzauberungsmagie}
+\expandafter\def\csname school@erkenntnismagie@name\endcsname{Erkenntnismagie}
+
+\expandafter\def\csname school@verzauberungsmagie@color\endcsname{verzauberungsmagie}
 \expandafter\def\csname school@verzauberungsmagie@icon\endcsname{\faRecycle}
-\expandafter\def\csname school@illusionsmagie@name\endcsname{Illusionsmagie}
+\expandafter\def\csname school@verzauberungsmagie@name\endcsname{Verzauberungsmagie}
+
+\expandafter\def\csname school@illusionsmagie@color\endcsname{illusionsmagie}
 \expandafter\def\csname school@illusionsmagie@icon\endcsname{\faHatWizard}
-\expandafter\def\csname school@verwandlungsmagie@name\endcsname{Verwandlungsmagie}
+\expandafter\def\csname school@illusionsmagie@name\endcsname{Illusionsmagie}
+
+\expandafter\def\csname school@verwandlungsmagie@color\endcsname{verwandlungsmagie}
 \expandafter\def\csname school@verwandlungsmagie@icon\endcsname{\faRecycle}
-\expandafter\def\csname school@nekromantie@name\endcsname{Nekromantie}
+\expandafter\def\csname school@verwandlungsmagie@name\endcsname{Verwandlungsmagie}
+
+\expandafter\def\csname school@nekromantie@color\endcsname{nekromantie}
 \expandafter\def\csname school@nekromantie@icon\endcsname{\faSkullCrossbones}
+\expandafter\def\csname school@nekromantie@name\endcsname{Nekromantie}
+
+% Helper commands
+\newcommand{\schoolcolor}[1]{%
+  \csname school@#1@color\endcsname
+}
+\newcommand{\schoolicon}[1]{%
+  \csname school@#1@icon\endcsname
+}
+\newcommand{\schoolname}[1]{%
+  \csname school@#1@name\endcsname
+}
 
 % ------------------------------------------------------------------
 % 3.  ICON SHORTCUTS
@@ -105,27 +124,26 @@
 }
 
 % ------------------------------------------------------------------
-% HEADER WITH ICON (top-right aligned)
+% 3. SPELL HEADER (uses unified color + icon)
 % ------------------------------------------------------------------
 \newcommand{\spellheader}[3]{%
   % #1 = title
-    % #2 = school key (color + icon)
-    % #3 = subtitle (level etc.)
+  % #2 = school key
+  % #3 = subtitle (level etc.)
 
-    \noindent
-    \begin{minipage}{0.78\linewidth}
-      {\titlefont\small\color{#2}\textbf{#1}}\\
-      {\tiny\color{gray}#3}
-    \end{minipage}%
-    \begin{minipage}{0.2\linewidth}
-      \raggedleft
-      {\Large\color{#2}\spellschoolicon{#2}}
-    \end{minipage}
+  \noindent
+  \begin{minipage}{0.78\linewidth}
+    {\titlefont\small\color{\schoolcolor{#2}}\textbf{#1}}\\
+    {\tiny\color{gray}#3}
+  \end{minipage}%
+  \begin{minipage}{0.2\linewidth}
+    \raggedleft
+    {\Large\color{\schoolcolor{#2}}\schoolicon{#2}}
+  \end{minipage}
 
-    \vspace{1.5mm}
-    {\color{#2}\hrule}
+  \vspace{1.5mm}
+  {\color{\schoolcolor{#2}}\hrule}
 }
-
 
 % ------------------------------------------------------------------
 % META LINE (stats row)
@@ -136,20 +154,15 @@
   \parsecomponents{#3} \hfill \durationicon\ #4
   }
    \vspace{1.5mm}
-    {\color{#2}\hrule}
+    {\color{gray}\hrule}
     \vspace{1.5mm}
 }
-
+\newcommand{\spelldesc}[1]{%
+  {\footnotesize\color{cardframe}#1}
+}
 
 \newcommand{\spellpage}[1]{%
   \hfill{\tiny\color{gray}S.~#1}%
-}
-% ------------------------------------------------------------------
-% 8.  SPELL COMMAND  (only 2 arguments, for simplicity)
-% ------------------------------------------------------------------
-\newenvironment{spell}[2]{
-  \textbf{#1} (#2)
-}{
 }
 
 % ------------------------------------------------------------------
@@ -162,6 +175,6 @@
 {\titlefont\Large\color{cardframe}$\star$}\\[1ex]
 {\large\color{gray}D\&D 5e}\\[0.5ex]
 {\small\color{gray}Spell Cards}
-\vspace*{\gap}
+\vspace{\fill}
 {\tiny\color{gray}Designed by Leon Greil}
 \end{spellcard}}
