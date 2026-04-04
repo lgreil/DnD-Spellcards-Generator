@@ -24,13 +24,12 @@
 %   - Landscape card orientation provides better text and component display
 
 
-% Optimized geometry for perfect card fitting on A4 landscape
-% Margins: 3mm sides + bottom, 5mm top (slight bleed for cutting)
+% Rigid page layout with no LaTeX margin glue
 \usepackage[
-  paperwidth=29.7cm,
-  paperheight=21.0cm,
-  margin=3mm,
-  top=5mm
+  paperwidth=297mm,
+  paperheight=210mm,
+  margin=0mm,
+  noheadfoot
 ]{geometry}
 
 \usepackage{fontspec}
@@ -52,29 +51,29 @@
 % Remove page headers/footers
 \pagestyle{empty}
 
-% Card spacing (matches card-design.tex tabular spacing)
-\setlength{\tabcolsep}{0.3cm}
+% Rigid fixed-size card grid, no stretchable glue
+\newlength{\cardwidth}   \setlength{\cardwidth}{105mm}
+\newlength{\cardheight}  \setlength{\cardheight}{72.5mm}
+\newlength{\gap}         \setlength{\gap}{2mm}
+
+% total width needed: 2 cards + 1 gap
+\newlength{\gridwidth}   \setlength{\gridwidth}{\dimexpr 2\cardwidth + \gap\relax}
+\newlength{\cardleftmargin}  \setlength{\cardleftmargin}{\dimexpr (297mm - \gridwidth)/2\relax}
+
+% vertical position: 3 rows + 2 gaps, centred
+\newlength{\cardtopmargin}   \setlength{\cardtopmargin}{\dimexpr (210mm - 3\cardheight - 2\gap)/2\relax}
+
+\setlength{\tabcolsep}{0pt}
 \setlength{\arrayrulewidth}{0pt}
 
-% Remove default text indentation
+\newcommand{\hgap}{\hspace{\gap}}
+\newcommand{\vgap}{\vspace{\gap}}
+
 \setlength{\parindent}{0pt}
 
 \begin{document}
 
-% ---------- 2 × 3 GRID ----------
-% horizontal gap = 2 mm = 0.2 cm
-% vertical gap   = 2 mm = 0.2 cm
-\makeatletter
-\newcount\rowcount
-\rowcount=0
-\def\finishrow{\ifnum\rowcount=2 \par\vspace{0.2cm}\rowcount=0\fi}
-
-% Load pre-generated spell cards from Python script
 \input{cards.tex}
-
-% --- flush the last partial row ----------------------------------------------
-\ifnum\rowcount>0 \par\fi
-\makeatother
 
 \end{document}
 

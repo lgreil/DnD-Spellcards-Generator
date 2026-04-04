@@ -122,8 +122,8 @@ class SpellFormatter:
         if not isinstance(desc_input, list):
             return str(desc_input)
         
-        # Join list with bullet separators (without repeating \small)
-        return r" \bullet ".join(desc_input)
+        # Join list with bullet separators in text mode
+        return r" \textbullet ".join(desc_input)
     
     @staticmethod
     def generate_spell_call(spell_data: SpellData) -> str:
@@ -181,9 +181,18 @@ class PageLayout:
     @staticmethod
     def get_tabular_preamble() -> str:
         """LaTeX tabular column specification"""
-        cols = "@{}c@{\\hspace{" + PageLayout.HSPACE_MM + "}}"
-        return cols * PageLayout.COLS_PER_ROW + "@{}"
-    
+        return "@{}*{" + str(PageLayout.COLS_PER_ROW) + "}{p{\\cardwidth}}@{}"
+
+    @staticmethod
+    def make_row(cells: list) -> str:
+        """Render a single fixed-width row as a separate tabular* block."""
+        return (
+            "\\hspace*{\\leftmargin}\\noindent\n"
+            "\\begin{tabular*}{\\gridwidth}{" + PageLayout.get_tabular_preamble() + "}\n"
+            + " & ".join(cells) + "\n"
+            "\\end{tabular*}\n"
+        )
+
     @staticmethod
     def generate_pages(spells_data: list) -> str:
         """Generate complete LaTeX output for all pages"""
@@ -195,7 +204,7 @@ class PageLayout:
             
             # Front page
             output += f"% Page {page_number} fronts\n"
-            output += f"\\begin{{tabular}}{{{PageLayout.get_tabular_preamble()}}}\n"
+            output += "\\vspace*{\\topmargin}\n"
             
             for row_start in range(0, len(page_spells), PageLayout.COLS_PER_ROW):
                 row_spells = []
@@ -205,14 +214,16 @@ class PageLayout:
                         row_spells.append(SpellFormatter.generate_spell_call(spell_data))
                     else:
                         row_spells.append("")
-                
-                output += " & ".join(row_spells) + " \\\\\n"
+
+                output += PageLayout.make_row(row_spells)
+                if row_start + PageLayout.COLS_PER_ROW < len(page_spells):
+                    output += "\\vgap\n"
             
-            output += "\\end{tabular}\n\\newpage\n"
+            output += "\\newpage\n"
             
             # Back page
             output += f"% Page {page_number} backs\n"
-            output += f"\\begin{{tabular}}{{{PageLayout.get_tabular_preamble()}}}\n"
+            output += "\\vspace*{\\topmargin}\n"
             
             for row_start in range(0, len(page_spells), PageLayout.COLS_PER_ROW):
                 row_backs = []
@@ -221,18 +232,15 @@ class PageLayout:
                         row_backs.append("\\cardback")
                     else:
                         row_backs.append("")
-                
-                output += " & ".join(row_backs) + " \\\\\n"
+
+                output += PageLayout.make_row(row_backs)
+                if row_start + PageLayout.COLS_PER_ROW < len(page_spells):
+                    output += "\\vgap\n"
             
-            output += "\\end{tabular}\n"
-            
-            # Newpage after back, unless it's the last page
             if page_num + PageLayout.CARDS_PER_PAGE < len(spells_data):
                 output += "\\newpage\n"
         
         return output
-
-
 # ==============================================================================
 # MAIN
 # ==============================================================================
