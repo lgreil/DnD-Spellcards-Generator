@@ -14,7 +14,7 @@ No UI. No overhead. Just fast iteration and full control over layout and design.
 
 ## 📸 Preview
 
-![Spellcard Preview](./preview.png)
+![Spellcard Preview](./demo/demo.png)
 
 ---
 
